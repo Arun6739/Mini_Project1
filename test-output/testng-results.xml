@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-15T22:39:37 IST" name="Suite" finished-at="2024-12-15T22:40:53 IST" duration-ms="75794">
+    <groups>
+    </groups>
+    <test started-at="2024-12-15T22:39:37 IST" name="Test" finished-at="2024-12-15T22:40:53 IST" duration-ms="75794">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@7fa98a66]" started-at="2024-12-15T22:39:55 IST" name="setUp" finished-at="2024-12-15T22:39:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginButtonVisibility()[pri:1, instance:tests.LoginTest@7fa98a66]" started-at="2024-12-15T22:39:55 IST" name="testLoginButtonVisibility" finished-at="2024-12-15T22:39:55 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginButtonVisibility -->
+        <test-method signature="testLoginButtonClickability()[pri:2, instance:tests.LoginTest@7fa98a66]" started-at="2024-12-15T22:39:55 IST" name="testLoginButtonClickability" finished-at="2024-12-15T22:39:57 IST" duration-ms="1778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginButtonClickability -->
+        <test-method signature="testUserDashboardOpens()[pri:3, instance:tests.LoginTest@7fa98a66]" started-at="2024-12-15T22:39:57 IST" name="testUserDashboardOpens" finished-at="2024-12-15T22:39:57 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserDashboardOpens -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.HomePageTest">
+        <test-method signature="testWelcomeMessageDisplayed()[pri:1, instance:tests.HomePageTest@15ff3e9e]" started-at="2024-12-15T22:39:57 IST" name="testWelcomeMessageDisplayed" finished-at="2024-12-15T22:40:02 IST" duration-ms="4697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWelcomeMessageDisplayed -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@15ff3e9e]" started-at="2024-12-15T22:39:57 IST" name="setUp" finished-at="2024-12-15T22:39:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMenuItemsDisplayed()[pri:2, instance:tests.HomePageTest@15ff3e9e]" started-at="2024-12-15T22:40:02 IST" name="testMenuItemsDisplayed" finished-at="2024-12-15T22:40:02 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuItemsDisplayed -->
+        <test-method signature="testProductCategoriesDisplayed()[pri:3, instance:tests.HomePageTest@15ff3e9e]" started-at="2024-12-15T22:40:02 IST" name="testProductCategoriesDisplayed" finished-at="2024-12-15T22:40:03 IST" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductCategoriesDisplayed -->
+        <test-method signature="testApplicationLogoDisplayed()[pri:4, instance:tests.HomePageTest@15ff3e9e]" started-at="2024-12-15T22:40:03 IST" name="testApplicationLogoDisplayed" finished-at="2024-12-15T22:40:03 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplicationLogoDisplayed -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.ProductDetailsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ProductDetailsTest@5fdcaa40]" started-at="2024-12-15T22:40:03 IST" name="setUp" finished-at="2024-12-15T22:40:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRedirectionToProductDetailsPage()[pri:1, instance:tests.ProductDetailsTest@5fdcaa40]" started-at="2024-12-15T22:40:03 IST" name="testRedirectionToProductDetailsPage" finished-at="2024-12-15T22:40:06 IST" duration-ms="2981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRedirectionToProductDetailsPage -->
+        <test-method signature="testProductDetailsAccuracy()[pri:2, instance:tests.ProductDetailsTest@5fdcaa40]" started-at="2024-12-15T22:40:06 IST" name="testProductDetailsAccuracy" finished-at="2024-12-15T22:40:06 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductDetailsAccuracy -->
+        <test-method signature="testAddProductToCartAndVerifyDetails()[pri:3, instance:tests.ProductDetailsTest@5fdcaa40]" started-at="2024-12-15T22:40:06 IST" name="testAddProductToCartAndVerifyDetails" finished-at="2024-12-15T22:40:10 IST" duration-ms="3699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCartAndVerifyDetails -->
+        <test-method signature="testIncrementCartCount()[pri:4, instance:tests.ProductDetailsTest@5fdcaa40]" started-at="2024-12-15T22:40:10 IST" name="testIncrementCartCount" finished-at="2024-12-15T22:40:19 IST" duration-ms="9382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIncrementCartCount -->
+      </class> <!-- tests.ProductDetailsTest -->
+      <class name="tests.SignupTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignupTest@7334aada]" started-at="2024-12-15T22:39:37 IST" name="setUp" finished-at="2024-12-15T22:39:41 IST" duration-ms="4086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignUpButtonClickability()[pri:0, instance:tests.SignupTest@7334aada]" started-at="2024-12-15T22:39:41 IST" name="testSignUpButtonClickability" finished-at="2024-12-15T22:39:44 IST" duration-ms="2570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpButtonClickability -->
+        <test-method signature="testSignUpButtonVisibility()[pri:0, instance:tests.SignupTest@7334aada]" started-at="2024-12-15T22:39:44 IST" name="testSignUpButtonVisibility" finished-at="2024-12-15T22:39:44 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpButtonVisibility -->
+        <test-method signature="testSignUpPageOpens()[pri:0, instance:tests.SignupTest@7334aada]" started-at="2024-12-15T22:39:44 IST" name="testSignUpPageOpens" finished-at="2024-12-15T22:39:44 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpPageOpens -->
+        <test-method is-config="true" signature="closeSignUpModal()[pri:0, instance:tests.SignupTest@7334aada]" started-at="2024-12-15T22:39:44 IST" name="closeSignUpModal" finished-at="2024-12-15T22:39:55 IST" duration-ms="10798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSignUpModal -->
+      </class> <!-- tests.SignupTest -->
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CartTest@6dc17b83]" started-at="2024-12-15T22:40:19 IST" name="setUp" finished-at="2024-12-15T22:40:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteItemFromCart()[pri:1, instance:tests.CartTest@6dc17b83]" started-at="2024-12-15T22:40:19 IST" name="testDeleteItemFromCart" finished-at="2024-12-15T22:40:32 IST" duration-ms="12713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteItemFromCart -->
+        <test-method signature="testTotalPriceAfterDeletion()[pri:2, instance:tests.CartTest@6dc17b83]" started-at="2024-12-15T22:40:32 IST" name="testTotalPriceAfterDeletion" finished-at="2024-12-15T22:40:32 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalPriceAfterDeletion -->
+        <test-method signature="testPlaceOrderButtonRedirection()[pri:3, instance:tests.CartTest@6dc17b83]" started-at="2024-12-15T22:40:32 IST" name="testPlaceOrderButtonRedirection" finished-at="2024-12-15T22:40:33 IST" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlaceOrderButtonRedirection -->
+        <test-method signature="testUserDetailsFieldsPresence()[pri:4, instance:tests.CartTest@6dc17b83]" started-at="2024-12-15T22:40:33 IST" name="testUserDetailsFieldsPresence" finished-at="2024-12-15T22:40:33 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserDetailsFieldsPresence -->
+        <test-method signature="testSubmitOrder()[pri:5, instance:tests.CartTest@6dc17b83]" started-at="2024-12-15T22:40:33 IST" name="testSubmitOrder" finished-at="2024-12-15T22:40:35 IST" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmitOrder -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LogoutTest@5e0826e7]" started-at="2024-12-15T22:40:35 IST" name="setUp" finished-at="2024-12-15T22:40:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="closeAllModalsAfterTest()[pri:0, instance:tests.LogoutTest@5e0826e7]" started-at="2024-12-15T22:40:35 IST" name="closeAllModalsAfterTest" finished-at="2024-12-15T22:40:37 IST" duration-ms="1908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAllModalsAfterTest -->
+        <test-method signature="testLogoutButtonVisibility()[pri:1, instance:tests.LogoutTest@5e0826e7]" started-at="2024-12-15T22:40:37 IST" name="testLogoutButtonVisibility" finished-at="2024-12-15T22:40:40 IST" duration-ms="3155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutButtonVisibility -->
+        <test-method is-config="true" signature="closeAllModalsAfterTest()[pri:0, instance:tests.LogoutTest@5e0826e7]" started-at="2024-12-15T22:40:40 IST" name="closeAllModalsAfterTest" finished-at="2024-12-15T22:40:50 IST" duration-ms="10101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAllModalsAfterTest -->
+        <test-method signature="testLogoutFunctionality()[pri:2, instance:tests.LogoutTest@5e0826e7]" started-at="2024-12-15T22:40:50 IST" name="testLogoutFunctionality" finished-at="2024-12-15T22:40:52 IST" duration-ms="1816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogoutTest@5e0826e7]" started-at="2024-12-15T22:40:52 IST" name="tearDown" finished-at="2024-12-15T22:40:53 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
